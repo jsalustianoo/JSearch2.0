@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tudo{
+    height: 150vh;
+    background-color: #2C2C2C;
+}
+
+#menu{
+    position: fixed;
+    width: 100%;
+    height: 17%;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin-top: 1%;
+    list-style: none;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.logoTela2{
+    width: 150px;
+}
+
+#linksMenu{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.3vh;
+    gap: 2rem;
+}
+
+#logoUser2{
+    display: flex;
+    justify-content: flex-end;
+    width: 30px;
+}
+
+/* Corpo */
+#corpoTela2{
+    height: 83vh;
+    padding: 6%;
+    margin-top: 8.3%;
+}
+
+#caixaPesquisa{    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    border-radius: 50px 20px;
+    color: white;
+    background-color: black;
+}
+
+.resultados{
+    width: 650px;
+}
+
+.ave{
+    display: flex;
+    justify-content: center;
+}
+
+.iconesBarraPesquisa2{
+    width: 20px;
+    cursor: pointer;
+}
+
+#imagemSegundoResultado{
+    width: 94%;
+}
+
+.redirecionamentoH2{
+    margin-top: 1%;
+}
+
+#primeiroResultado{
+    margin-bottom: 5%;
+}
+
+.quadroPesquisa{
+    width: 80vh;
+    height: 55px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+#barraDePesquisa{
+    width: 75%;
+    height: 55px;
+    padding-left: 3%;
+    border: none;
+    border-radius: 40px;
+}
+
+.iconesBarraPesquisa{
+    border: none;
+    border-radius: 40px;
+}
+
+button{
+    background-color: white;
+    margin-left: 15px;
+    border: none;
+}
